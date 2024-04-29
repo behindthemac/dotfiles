@@ -8,6 +8,3 @@ colorscheme solarized
 set number
 set ruler
 set hlsearch
-
-set tabstop=4
-set shiftwidth=4
