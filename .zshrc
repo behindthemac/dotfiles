@@ -6,6 +6,9 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_PS1_SHOWUPSTREAM="auto"
 setopt PROMPT_SUBST ; PS1='%F{cyan}%~%f%F{magenta}$(__git_ps1 " (%s)")%f %F{yellow}%#%f '
 
+# git-completion
+fpath=(~/.zsh $fpath)
+
 alias g='git'
 alias t='tig'
 alias d='docker'
